@@ -37,7 +37,7 @@
         <activity
             android:name=".UserActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"> /*이 부분이 들어가면 검은 화면이뜨고 안들어가면 텅빈 UserActivity가 뜬다.! >
+            android:theme="@style/Theme.AppCompat.NoActionBar"> /*이 부분이 들어가면 검은 화면이뜨고 안들어가면 텅빈 UserActivity가 뜬다!! >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
