@@ -37,6 +37,7 @@
             android:text="유저"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:background="#FDFD97"></Button>
 
         <Button
@@ -44,6 +45,7 @@
             android:text="관리인"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:background="#FDFD97"></Button>
 
 

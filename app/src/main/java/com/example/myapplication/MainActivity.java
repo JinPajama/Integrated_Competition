@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), UserActivity.class);
                 startActivity(intent);
-                Log.e("test log", "test log");
             }
         });
     }
