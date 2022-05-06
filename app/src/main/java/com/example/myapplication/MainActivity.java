@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), UserActivity.class);
                 startActivity(intent);
-                Log.e("test log", "테스트 로그입니다.");
+                Log.e("test log", "테스트 로그입니다.~~~~");
             }
         });
     }
