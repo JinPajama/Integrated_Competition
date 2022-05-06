@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#B9ECAC"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/image1"
+            android:src="@drawable/bee_logo"></ImageView>
+
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/textV1"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textColor="@color/black"
+            ></TextView>
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:id="@+id/btn1"
+            android:text="유저"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDFD97"></Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="관리인"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDFD97"></Button>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
