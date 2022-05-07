@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button = (Button) findViewById(R.id.btn1); /*page change*/
+        Button button1 = (Button) findViewById(R.id.btn2);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,5 +25,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(getApplicationContext(), AdminActivity.class);
+                startActivity(intent1);
+            }
+        });
+
     }
 }

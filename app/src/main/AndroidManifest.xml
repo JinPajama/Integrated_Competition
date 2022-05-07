@@ -37,7 +37,19 @@
         <activity
             android:name=".UserActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"> /*이 부분이 들어가면 검은 화면이뜨고 안들어가면 텅빈 UserActivity가 뜬다!! >
+            android:theme="@style/Theme.AppCompat.NoActionBar"> /*이 부분이 들어가면 검은 화면이뜨고 안들어가면 텅빈 UserActivity가 뜬다! - 원인 다크모드>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

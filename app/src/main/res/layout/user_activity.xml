@@ -3,21 +3,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    /* 사용할 비슷한 톤의 색깔들
+    #77DD76 #A6ECA8 #D2FDBB #FBFDE1 #FDFD97
+    초록색,  연한 초록, 더 연한 초록, 연한 노랑, 노랑 */
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffffff">
+        android:background="#B9ECAC"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
 
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="This is User's screen"
+            android:background="#77DD76"
+            android:id="@+id/btn1"
+            android:layout_marginBottom="20dp"
+            android:text="공지사항 및 투표"
             android:textColor="@color/black"
-            android:gravity="center"
-            ></TextView>
+            ></Button>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#77DD76"
+            android:id="@+id/btn2"
+            android:layout_marginBottom="20dp"
+            android:text="자유 게시판"
+            android:textColor="@color/black"
+            ></Button>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#77DD76"
+            android:id="@+id/btn3"
+            android:layout_marginBottom="20dp"
+            android:text="공동구매"
+            android:textColor="@color/black"
+            ></Button>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#77DD76"
+            android:id="@+id/btn4"
+            android:layout_marginBottom="20dp"
+            android:text="쪽지함"
+            android:textColor="@color/black"
+            ></Button>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#77DD76"
+            android:id="@+id/btn5"
+            android:layout_marginBottom="20dp"
+            android:text="건의사항 작성"
+            android:textColor="@color/black"
+            ></Button>
+
+
+
+
+
 
     </LinearLayout>
 
